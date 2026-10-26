@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal tasks Sergey — личная синхронизация датированных задач Obsidian с Google Календарём.">
+  <meta name="color-scheme" content="light">
+  <title>Personal tasks Sergey — задачи Obsidian в календаре</title>
+  <link rel="canonical" href="https://obsidian.mirsa-ai.ru/">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+  <header class="header wrap">
+    <a class="brand" href="./"><span class="mark" aria-hidden="true">✓</span><span>Personal tasks Sergey</span></a>
+    <nav aria-label="Основная навигация"><a href="privacy.html">Конфиденциальность</a></nav>
+  </header>
+  <main id="main" class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Личная интеграция · Obsidian → Google Календарь</p>
+      <h1>Задачи в заметках.<br>Планы в календаре.</h1>
+      <p class="lead">Personal tasks Sergey помогает владельцу хранилища Obsidian переносить задачи с указанной датой в выбранный Google Календарь.</p>
+      <a class="button" href="privacy.html">Как используются данные <span aria-hidden="true">↗</span></a>
+    </section>
+    <section aria-labelledby="workflow-title" class="section">
+      <div class="section-heading"><p class="eyebrow">Как это работает</p><h2 id="workflow-title">Одна задача — одна запись в календаре</h2></div>
+      <ol class="steps">
+        <li><span class="step-number" aria-hidden="true">01</span><h3>Указать дату</h3><p>Добавить к задаче в заметке дату в формате <code>📅 2026-10-27</code>.</p></li>
+        <li><span class="step-number" aria-hidden="true">02</span><h3>Синхронизировать</h3><p>Открытый настольный Obsidian отправляет название, дату и параметры задачи в выбранный календарь.</p></li>
+        <li><span class="step-number" aria-hidden="true">03</span><h3>Отметить выполнение</h3><p>Галочка в Obsidian завершает задачу. Созданное для неё событие удаляется из календаря.</p></li>
+      </ol>
+    </section>
+    <section class="section split" aria-labelledby="access-title">
+      <div><p class="eyebrow">Доступ к Google</p><h2 id="access-title">Разрешение для работы с событиями</h2></div>
+      <div class="prose"><p>Подключение использует дополнение <a href="https://github.com/1easypeeler/obsidian-google-calendar-sync">Google Calendar Sync</a> для Obsidian. Авторизация проходит на странице Google.</p><p>Разрешение Google Calendar Events позволяет читать, создавать, изменять и удалять события доступных пользователю календарей. В личной конфигурации выбран календарь «Мои проекты»; синхронизация обрабатывает датированные задачи из папки «Проекты».</p><p>Синхронизация направлена из Obsidian в Google. Изменения событий в Google Календаре обратно в заметки не переносятся.</p></div>
+    </section>
+    <aside class="note"><h2>Этот сайт описывает подключение</h2><p>Авторизация и синхронизация выполняются в Obsidian и Google. На сайте опубликованы описание проекта, политика конфиденциальности и условия использования.</p></aside>
+    <section class="section split" aria-labelledby="contact-title">
+      <div><p class="eyebrow">О проекте</p><h2 id="contact-title">Личный инструмент владельца</h2></div>
+      <div class="prose"><p>Владелец проекта — пользователь GitHub <a href="https://github.com/sergeym-80">sergeym-80</a>. Подключение предназначено для его личных задач.</p><p>Вопросы об этом подключении можно направить через <a href="https://github.com/sergeym-80/obsidian-calendar-site/issues">раздел обращений проекта</a>. Перед отправкой обращения удалите из него секреты и личные данные.</p></div>
+    </section>
+  </main>
+  <footer class="footer wrap"><span>Personal tasks Sergey</span><nav aria-label="Документы"><a href="privacy.html">Конфиденциальность</a><a href="privacy.html#terms">Условия использования</a></nav><span class="updated">Обновлено 26 октября 2026</span></footer>
+</body>
+</html>
